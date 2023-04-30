@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 
-# initialize counter
-counter=0
+# print holberton school 10 times using while loop
 
-# loop while counter is less than 10
-while [ $counter -lt 10 ]
+while ((i < 10))
 do
-  echo "Best School"
-  # increment counter
-  counter=$((counter+1))
+    echo "Best School"
+    ((i++))
 done
