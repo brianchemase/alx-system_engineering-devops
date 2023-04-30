@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
-# printing holberton school 10 tiems
+# print best school 10 tiems
 
-for ((i=0; i<10; i++))
+# initialize counter
+count=0
+
+# loop while counter is less than 10
+while [ $count -lt 10 ]
 do
   echo "Best School"
+  # increment counter
+  ((count++))
 done
